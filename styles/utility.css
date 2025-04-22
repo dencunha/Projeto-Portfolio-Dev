@@ -13,3 +13,49 @@
 .align {
   align-items: center;
 }
+
+.header {
+    justify-items: center;
+    margin-bottom: 56px;
+     
+    h3 {
+      font: var(--sub);
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+  
+    h2 {
+      font: var(--tt-md);
+      color: var(--gray-600);
+    }
+}
+
+.header-2 {
+  justify-items: center;
+  margin-bottom: 56px;
+   
+  h3 {
+    font: var(--sub);
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--tt-md);
+    color: var(--gray-600);
+  }
+}
+
+.spanp {
+  span {
+    font: var(--tt-sm);
+    color: var(--gray-600);
+  }
+
+  p {
+    font: var(--txt-sm);
+    color: var(--gray-500);
+    margin-top: 8px;  
+  } 
+}
+

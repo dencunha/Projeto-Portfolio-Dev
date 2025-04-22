@@ -1,4 +1,4 @@
-header {
+#header {
   background-image: url(/assets/img/Background_Intro.png);
   background-size: cover;
 }
@@ -32,7 +32,7 @@ header {
 }
 
 #tags {
-  padding-block: 80px 70px;
+  padding-block: 80px 94px;
   justify-content: center;
   gap: 16px;
 
@@ -45,4 +45,9 @@ header {
     background-color: var(--gray-300);
     border-radius: 999px;
   }
+}
+
+#arrow {
+  justify-self: center;
+  padding: 57px;
 }
